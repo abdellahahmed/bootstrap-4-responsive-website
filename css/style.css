@@ -1,0 +1,117 @@
+header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.big-info{
+    font-family: 'Raleway', sans-serif !important;
+    
+}
+
+
+.small-info{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.nav-link {
+    font-family: 'Fira Sans', sans-serif !important;
+}
+
+.navbar-brand {
+    font-family: 'Righteous', cursive;
+    font-size: 40px !important;
+}
+
+
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-weight: 900; 
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #262626;
+}
+
+.nav-item {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    background: #262626;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #262626;
+    padding: 5px 15px;
+}
+
+.banner {
+    position: relative;
+    background: url(../image/visme.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
+
+.banner h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.8em;
+    font-weight: 800;
+    color: #262626;
+    text-transform: uppercase;
+}
+
+.banner p {
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1 .5em;
+    color: #262626;
+}
+
+.buttonRead {
+    display: inline-block;
+    margin: 1em 0 0;
+    background: #ff2670;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 2px;
+    font-weight: 800;
+    border-style: solid; 
+    
+}
+
+.buttonRead:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    color: #fff;
+    border: 2px solid #7f7f7f;
+    border-radius: 0;
+    outline: none;
+}
+
+.navbar-collapse {
+    background: none;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 200px 0;
+    }
+    .banner h2 {
+        font-size: 1.8em;
+    }
+}
+
